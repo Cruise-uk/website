@@ -1,0 +1,178 @@
+body {
+	
+		font-family: Trebuchet MS;
+background-image: url(images/bg.jpg);
+}
+
+.navicons{
+	padding: 2px 2px 10px 2px;
+}
+
+.blogdate {
+float: right;
+	color: grey;
+	font-size: 12px;
+
+	}
+	
+.blogpost {
+	border: 2px dashed black;
+	padding: 5px;
+}
+
+
+#sidebar {
+	
+	float: right;
+	border-left: 1px solid grey;
+	padding: 20px 12px 120px 12px;
+	width: 20%;
+	
+	}
+
+#social {
+	padding: 2px;
+	}
+
+#currentnav {
+		font-weight: 1000;
+		text-decoration:underline;
+		}
+	
+#footer {
+	position: relative;
+	clear: both;
+	bottom: 0;
+	border-top: 1px dashed gray;
+	margin-top: 20px
+	width: 100%;
+	
+	z-index:0;
+	}
+	#footer a {
+	color: grey;
+	
+	}
+	
+#footer p {
+	color: gray;
+	font-size: 9px;
+	}
+
+.nav {
+	clear: both;
+font-family: 'Titillium Web', sans-serif;
+	background: black;
+	color: #FFFFFF;
+	padding: 5px;
+	margin: 0px;
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.6);
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	
+	}
+	
+.nav h1 {
+		float: left;
+		padding: 0;
+		margin: 0;
+		display: block;
+		}
+.nav li {
+	display: inline;
+	font-color: #FFFFFF;
+	padding: 10px 5px 10px 5px;
+	font-size: 16px;
+	border-left: 1px solid white;
+	float: right;
+	margin-right: 7px;
+	font-weight: 800;
+	}
+	.nav a:hover {
+	font-weight: 1000;
+	}
+.nav a {
+	color: #FFFFFF;
+	clear: both;
+	}
+.nav div h1 {
+float: left;
+clear: both;
+}
+	
+.clear {
+
+	clear: both;
+	}
+	
+	.quote {
+	background-color: #C4C4C4;
+	font-style: italic;
+	margin-left: 30px;
+	padding: 5px;
+	
+	}
+	
+	
+.intro {
+margin-left: 20px;
+
+float: left;
+width: 73%;
+background-color: white;
+padding: 20px 10px 10px 10px;
+
+}
+
+#content {
+
+float: left;
+width: 95%;
+padding: 20px 10px 10px 10px;
+margin: 0 auto;
+margin-left: 23px;
+margin-top: 60px;
+margin-bottom: 30px;
+z-index: 10;
+background-color: white;
+}
+
+h2 {
+border-bottom: 1px solid #E0E0E0;
+margin-bottom: 7px;
+color: gray;
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+background-color:#b0e0e6;
+}
+
+
+
+.slider-wrapper {
+	margin: 10px auto;
+	width: 100%;
+}
+
+#slider .nivo-controlNav {
+	position:relative;
+	bottom: 600px;
+top: 60px;	/* Put the nav below the slider */
+}
+#slider .nivo-controlNav img {
+	display:inline; /* Unhide the thumbnails */
+	position:relative;
+	bottom: -60px;
+}
+
+.vidwrapper{
+
+ width: 640px;
+ height: 360px;
+ margin: 0 auto;
+}
